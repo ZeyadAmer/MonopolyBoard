@@ -1,0 +1,189 @@
+.table {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.board {
+    display: grid;
+    grid-gap: 2px;
+    margin: 50px auto;
+    width: 1200px;
+    height: 1200px;
+    background: seagreen;
+}
+
+.center {
+
+    background: white;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.title {
+
+    font-size: 90px;
+    font-weight: 400;
+    letter-spacing: 12px;
+}
+
+.community-chest-deck {
+
+    transform: rotate(135deg);
+    margin-bottom: 60px;
+    margin-right: 60px;
+}
+
+.chance-deck {
+
+    transform: rotate(315deg);
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.label {
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+}
+
+.deck {
+    border: 2px dashed black;
+    width: 160px;
+    height: 120px;
+}
+
+
+.row-side {
+    height: 150px;/* Set a specific height */
+    display: flex;
+
+}
+.row-custom {
+     height: 110px;/* Set a specific height */
+    display: flex;
+
+
+}
+.col-mid {
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    text-align: center;
+}
+.col-side {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    text-align: center;
+    overflow: hidden;
+}
+.col-left {
+    margin-right: auto; /* Pushes the column to the left */
+}
+
+.col-right {
+    margin-left: auto; /* Pushes the column to the right */
+}
+.rotate-right {
+    transform: rotate(-90deg);
+    transform-origin: center; /* Rotate around the center */
+    text-align: center;
+}
+.rotate-left {
+    transform: rotate(90deg);
+    transform-origin: center; /* Rotate around the center */
+    text-align: center;
+}
+.rotate-top {
+    transform: rotate(180deg);
+    transform-origin: center; /* Rotate around the center */
+    text-align: center;
+}
+.rotate-left-corner-bot {
+    transform: rotate(45deg);
+    transform-origin: center; /* Rotate around the center */
+    text-align: center;
+}
+.rotate-right-corner-bot {
+    transform: rotate(-45deg);
+    transform-origin: center; /* Rotate around the center */
+    text-align: center;
+}
+.rotate-left-corner-top {
+    transform: rotate(135deg);
+    transform-origin: center; /* Rotate around the center */
+    text-align: center;
+}
+.rotate-right-corner-top {
+    transform: rotate(-135deg);
+    transform-origin: center; /* Rotate around the center */
+    text-align: center;
+}
+.property {
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.color-bar {
+    width: 100%;
+    height: 20px;
+}
+
+
+.community-chest {
+    .container {
+        justify-content: space-around;
+    }
+
+    .drawing {
+        font-size: 50px;
+        color: lightblue;
+    }
+
+    .instructions {
+        font-size: 8px;
+    }
+}
+
+.brown {
+    background-color: #964B00; /* Brown */
+}
+
+.light-blue {
+    background-color: #ADD8E6; /* Light Blue */
+}
+
+.pink {
+    background-color: #FFC0CB; /* Pink */
+}
+
+.orange {
+    background-color: #FFA500; /* Orange */
+}
+
+.red {
+    background: #FF0000; /* Red */
+}
+
+.yellow {
+    background-color: #FFFF00; /* Yellow */
+}
+
+.green {
+    background-color: #008000; /* Green */
+}
+
+.dark-blue {
+    background-color: #00008B; /* Dark Blue */
+}
